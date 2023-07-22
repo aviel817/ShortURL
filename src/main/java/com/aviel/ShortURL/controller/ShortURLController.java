@@ -29,7 +29,10 @@ public class ShortURLController {
 
     @PostMapping("/shorturl/create")
     public ResponseEntity getShortURL(@RequestBody String originalURL) {
-        String shortURL = shortURLService.createShortURL(originalURL);
+        String shortURL = "";
+        do {
+            shortURL = shortURLService.createShortURL(originalURL);
+        } while (shortURLService.checkIfShortURLExists(shortURL));
         ShortURL shortURLObj = new ShortURL(originalURL, shortURL);
         shortURLService.saveShortURL(shortURLObj);
         return new ResponseEntity("Created new short link: " + request.getLocalAddr() + shortURLObj.getShortURL(), HttpStatus.OK);

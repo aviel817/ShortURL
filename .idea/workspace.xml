@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6efd49-82c5-457c-8038-26040fe6ef18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3a6efd49-82c5-457c-8038-26040fe6ef18" name="Changes" comment="Add changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortURL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortURL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/ShortURLApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/ShortURLApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/controller/ShortURLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/controller/ShortURLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/model/ShortURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/model/ShortURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/repository/ShortURLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/repository/ShortURLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/service/ShortURLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/service/ShortURLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aviel/ShortURL/ShortURLApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aviel/ShortURL/ShortURLApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aviel/ShortURL/service/ShortURLServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aviel/ShortURL/service/ShortURLServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,8 +183,17 @@
       <workItem from="1689581622281" duration="6628000" />
       <workItem from="1689675434372" duration="13755000" />
       <workItem from="1689751497316" duration="90000" />
-      <workItem from="1689924740374" duration="597000" />
+      <workItem from="1689924740374" duration="1939000" />
+      <workItem from="1690048290455" duration="226000" />
     </task>
+    <task id="LOCAL-00001" summary="Add changes">
+      <created>1689925444375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689925444376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,5 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add changes" />
   </component>
 </project>
