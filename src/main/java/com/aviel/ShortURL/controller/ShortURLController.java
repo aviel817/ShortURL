@@ -27,6 +27,18 @@ public class ShortURLController {
         return "Hello there! Client IP Address: " + ipAddress;
     }
 
+    @GetMapping("/test")
+    public ResponseEntity test(@RequestBody String originalURL) {
+        try {
+            String res = shortURLService.createShortURL(originalURL);
+            return new ResponseEntity(res, HttpStatus.OK);
+        }
+        catch (Exception e) {
+            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+
     @PostMapping("/shorturl/create")
     public ResponseEntity getShortURL(@RequestBody String originalURL) {
         String shortURL = "";
