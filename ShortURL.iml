@@ -14,7 +14,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -91,6 +93,8 @@
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-commons:1.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:6.0.10" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-cache:3.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:6.0.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.boot:spring-boot-devtools:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.1" level="project" />

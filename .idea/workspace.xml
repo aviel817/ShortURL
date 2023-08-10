@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6efd49-82c5-457c-8038-26040fe6ef18" name="Changes" comment="Add changes">
+    <list default="true" id="3a6efd49-82c5-457c-8038-26040fe6ef18" name="Changes" comment="test commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/exception/TimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/exception/TimeoutExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/controller/ShortURLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/controller/ShortURLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortURL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortURL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/ShortURLApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/ShortURLApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/repository/ShortURLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/repository/ShortURLRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/service/ShortURLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aviel/ShortURL/service/ShortURLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +24,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -184,7 +196,15 @@
       <workItem from="1689675434372" duration="13755000" />
       <workItem from="1689751497316" duration="90000" />
       <workItem from="1689924740374" duration="1939000" />
-      <workItem from="1690048290455" duration="226000" />
+      <workItem from="1690048290455" duration="2157000" />
+      <workItem from="1690289532086" duration="3104000" />
+      <workItem from="1690540193587" duration="672000" />
+      <workItem from="1690555831286" duration="2598000" />
+      <workItem from="1690890858102" duration="178000" />
+      <workItem from="1691082990796" duration="614000" />
+      <workItem from="1691163433321" duration="1555000" />
+      <workItem from="1691601445483" duration="613000" />
+      <workItem from="1691679612789" duration="2988000" />
     </task>
     <task id="LOCAL-00001" summary="Add changes">
       <created>1689925444375</created>
@@ -193,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689925444376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add check for existing shortURL">
+      <created>1690048565228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690048565228</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test commit">
+      <created>1691163809120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691163809120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +247,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add changes" />
+    <MESSAGE value="Add check for existing shortURL" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
 </project>
