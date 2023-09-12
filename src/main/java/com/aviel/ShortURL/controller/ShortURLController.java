@@ -27,6 +27,7 @@ public class ShortURLController {
         return "Hello there! Client IP Address: " + ipAddress;
     }
 
+
     @PostMapping("/shorturl/create")
     public ResponseEntity getShortURL(@RequestBody String originalURL) {
         String shortURL = "";
@@ -38,7 +39,7 @@ public class ShortURLController {
         return new ResponseEntity("Created new short link: " + request.getLocalAddr() + shortURLObj.getShortURL(), HttpStatus.OK);
     }
 
-    @GetMapping("/redirect/{shortURL}")
+    @GetMapping("/{shortURL}")
     public RedirectView redirect(@PathVariable String shortURL) {
         ShortURL shortURLObj = shortURLService.getShortURLObjByShortURL(shortURL);
         if (shortURLObj == null) {
